@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwww_lashisking_com=self.webpackChunkwww_lashisking_com||[]).push([[422],{8352:function(n,e,s){s.r(e);s(7294);e.default=function(){return"node_modules/\n.cache/\npublic\nnode_modules"}}}]);
+//# sourceMappingURL=component---src-pages-gitginore-js-85a6e66a383966167ed2.js.map
