@@ -1,0 +1,56 @@
+$brand-color: #C0C5FF;
+$secondary-color: #EDBCDF;
+$header-background: #FFF;
+$footer-color: #333;
+$border: 2px solid #CCC;
+$gutter: 2em;
+
+$primary-text-color: #111111;
+$secondary-text-color: #FFF;
+
+$primary-font: Montserrat, Helvetica, sans-serif;
+$secondary-font: Raleway, sans-serif;
+
+// Breakpoints
+$extra_wide_desktop_threshold: 1600px;
+$wide_desktop_threshold: 1350px;
+$desktop_threshold: 801px;
+$tablet_threshold: 650px;
+
+
+@mixin on_extra_wide_desktop {
+  @media screen and (min-width: $extra_wide_desktop_threshold) {
+    @content;
+  }
+}
+
+@mixin on_wide_desktop {
+  @media screen and (min-width: $wide_desktop_threshold) {
+    @content;
+  }
+}
+
+@mixin on_desktop {
+  @media screen and (min-width: $desktop_threshold) {
+    @content;
+  }
+}
+
+@mixin on_tablet {
+  @media screen and (min-width: $tablet_threshold) {
+    @content;
+  }
+}
+
+@mixin on_mobile {
+  @media screen and (max-width: $desktop_threshold - 1px) {
+    @content;
+  }
+}
+
+
+@mixin min_width($width) {
+  @media screen and (min-width: $width) {    
+    @content;
+  }
+}

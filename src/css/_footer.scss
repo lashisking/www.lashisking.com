@@ -1,0 +1,23 @@
+footer {
+  text-align: center;
+  background-color: $footer-color;
+  min-height: 300px;
+  border-bottom: .5em solid $secondary-color;
+}
+.footer-contact {
+  color: rgba(255,255,255,.75);
+  padding: 40px 0;
+
+}
+
+.footer-map-link {
+  color: rgba(255,255,255,.75);
+}
+.map {
+  max-width: 100%;
+}
+
+.made-with {
+  // margin-top: 100px;
+  color: white;
+}
