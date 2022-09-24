@@ -116,7 +116,9 @@ header {
 }
 
 
-
+#nav-open {
+  display: none;
+}
 .menu-toggle {
   @include on_tablet {
     display: none;
