@@ -20,7 +20,13 @@ h1, h2, h3, h4, h5, h6, p {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
+  // font-family: inherit;
+}
+h1, h2, h3, h4, h5, h6, p {
   font-family: $secondary-font;
+}
+p {
+  font-family: $primary-font;
 }
 
 
@@ -96,13 +102,13 @@ input::placeholder {
   text-align: center;
   padding: 1em;
   text-transform: uppercase;
-  background-color: $brand-color;
+  background-color: $primary-color;
   color: white;
   cursor: pointer;
   font-size: 18px;
   
   &:hover, &:active {
-    background-color: lighten($brand-color, 2%);
+    background-color: lighten($primary-color, 2%);
     cursor: pointer;
   }
 }
@@ -151,7 +157,7 @@ input::placeholder {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        border: .5em solid $brand-color;
+        border: .5em solid $primary-color;
 
         p {
           padding: 1.3em;          
@@ -201,6 +207,7 @@ input::placeholder {
   text-align: justify;
   font-size: 20px;
   line-height: 1.4;  
+  color: #fff;
 
   display: flex;
   flex-direction: columns;
@@ -215,10 +222,13 @@ input::placeholder {
   }
 }
 
+.policies {
+  padding: 2em 0;
+}
 
 
-
-.services {
+.services,
+.policies {
   h3 {
     font-size: 2.5em;
     font-weight: 300;
@@ -227,7 +237,7 @@ input::placeholder {
 
   p {
     font-size: 1.5em;
-    padding-right: 15%;
+    // padding-right: 15%;
   }
 
 }
@@ -240,37 +250,59 @@ input::placeholder {
     .photo-container {
 
       flex-basis: 100%;
-      padding-bottom: 140%;
+      padding-bottom: 100%;
       background-size: cover;
       margin-bottom: $gutter;
       
       @include on_tablet {        
         flex-basis: calc((100% - (#{$gutter} * 1)) / 2);
-        padding-bottom: calc(70% - (#{$gutter} / 2));
+        padding-bottom: calc(50% - (#{$gutter} / 2));
       }
       
       @include on_wide_desktop {
         flex-basis: calc((100% - (#{$gutter} * 2)) / 3);        
-        padding-bottom: calc(46% - (#{$gutter}));
+        padding-bottom: calc(32% - (#{$gutter}));
       }
 
 
+      filter: brightness(0.7);
       &.a {
-        background-image: url('../images/eye.jpeg');
-        background-position: 36%;
-        filter: brightness(0.8);
+        // background-image: url('../images/eye.jpeg');
+        background-image: url('../images/aa-min.jpeg');
+        // background-position: 36%;
       }
       &.b {
-        background-image: url('../images/ph.jpeg');
+        background-image: url('../images/ab-min.jpeg');
+        // background-image: url('../images/ph.jpeg');
         filter: brightness(0.9);
       }
       &.c {
-        background-image: url('../images/working.jpeg');
-        background-position: 36%;
+        background-image: url('../images/ac-min.jpeg');
+        // background-image: url('../images/working.jpeg');
+        // background-position: 36%;
+      }
+      &.d {
+        background-image: url('../images/ad-min.jpeg');
+        // background-image: url('../images/working.jpeg');
+        // background-position: 36%;
+      }
+      &.e {
+        background-image: url('../images/ae-min.jpeg');
+        // background-image: url('../images/working.jpeg');
+        // background-position: 36%;
+      }
+      &.f {
+        background-image: url('../images/volume-card.jpeg');
+        // background-image: url('../images/working.jpeg');
+        // background-position: 36%;
       }
     }
 
 
+    .right-align {
+      display: block;
+      text-align: right;
+    }
 
 
 .photoblock {
@@ -315,7 +347,7 @@ input::placeholder {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.5);
-    content: "";   
+    content: "";
     &:hover, &:active {      
       background-color: rgba(0,0,0,.0);      
     }
@@ -352,7 +384,7 @@ input::placeholder {
   }
   .contact-conatiner .copy {
     padding: 2em;
-    background-color: $brand-color;
+    background-color: $primary-color;
     flex-grow: 3;
   }
   
@@ -373,8 +405,7 @@ input::placeholder {
 
   .pricing {
     background: 
-      linear-gradient(140deg, rgba(255,255,255,1), rgba(255,255,255,0)),
-      $brand-color;
+      linear-gradient(140deg, rgba(255,255,255,1), rgba(255,255,255,0)),$brand-color;
       
     h3 {
       font-size: 2.5em;

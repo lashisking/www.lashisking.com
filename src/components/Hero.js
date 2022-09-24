@@ -4,8 +4,8 @@ export default (props) => (
         <div className="inner center hero-content v-inner">
 
         <div className="title-wrapper">
-            <h1 className="title">Lash is King</h1>
-            <p className="sub-title">"Self care is giving the world the best you, instead of what's left of you." <br/> &mdash;Katie Reed</p>
+            <h1 className="title">{props.page}</h1>
+            <p className="sub-title">{Array.prototype.concat.apply([], props.text).map(item => [item, <br/> ])}</p>
         </div>
         <div className="social-media-links">
             <a className="site-link" href="https://www.instagram.com/lash.is.king/" target="_blank">

@@ -38,7 +38,7 @@ const Component = (props) => (
             {EXPECT_ITEMS.map(({icon, heading, text}) => (
                 <div key={heading} className="expect-item">
                 <h4>
-                    <i className="{icon}"></i>
+                    <i className={icon}></i>
                     {heading}
                 </h4>
                 <p>

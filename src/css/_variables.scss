@@ -1,4 +1,6 @@
 $brand-color: #C0C5FF;
+
+$primary-color: #000;
 $secondary-color: #EDBCDF;
 $header-background: #FFF;
 $footer-color: #333;
@@ -6,10 +8,11 @@ $border: 2px solid #CCC;
 $gutter: 2em;
 
 $primary-text-color: #111111;
-$secondary-text-color: #FFF;
+// $secondary-text-color: #FFF;
+$secondary-text-color: $brand-color;
 
-$primary-font: Montserrat, Helvetica, sans-serif;
-$secondary-font: Raleway, sans-serif;
+$primary-font: Sanchez, Helvetica, sans-serif;
+$secondary-font: Abril Fatface, sans-serif;
 
 // Breakpoints
 $extra_wide_desktop_threshold: 1600px;
