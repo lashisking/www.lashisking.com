@@ -112,9 +112,23 @@ header {
   margin: 2px;
   transition: color .2s ease-in-out;
   white-space: nowrap;
-  &:hover {
-    color: lighten(black, 10%);
+  color: #757575;
+  color: black;
+  &:hover:not(.selected) {
+    color: lighten(#757575, 30%);
   }
+  &.booknow {
+    color: $secondary-text-color;
+    &:hover {
+      color: darken($secondary-text-color, 10%);
+    }
+  }
+  &.selected {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: overline;
+  }
+  
 }
 
 

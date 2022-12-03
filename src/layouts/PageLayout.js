@@ -36,7 +36,7 @@ const PageLayout = (props) => {
   React.useEffect(initEventListeners);
   return (
     <>   
-      <Header />
+      <Header current={props.page}/>
         <main id="top">
             <Hero page={props.page} text={props.text || []}/>
             {props.children}
