@@ -5,7 +5,7 @@ export default (props) => (
         <div className="v-inner">
         <div className="inner">        
             <div className="social-media-links">
-            <a className="site-link" href="https://www.instagram.com/lash.is.king/" target="_blank">
+            <a className="site-link" href="https://www.instagram.com/lashiskingllc/" target="_blank">
                 <i className="fab fa-instagram"></i>
             </a>
             <a className="site-link" href="https://square.site/book/LXWWVM8PHCGRW/lash-is-king" target="_blank">
