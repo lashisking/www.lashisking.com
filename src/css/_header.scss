@@ -114,6 +114,7 @@ header {
   white-space: nowrap;
   color: #757575;
   color: black;
+  position: relative;
   &:hover:not(.selected) {
     color: lighten(#757575, 30%);
   }
@@ -126,7 +127,9 @@ header {
   &.selected {
     pointer-events: none;
     cursor: default;
-    text-decoration: overline;
+    color: #757575;
+    text-decoration: overline underline;
+    text-underline-offset: 6px;
   }
   
 }
