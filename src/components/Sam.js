@@ -9,7 +9,7 @@ export default (props) => (
         </div>
         <div className="two-box two-box-text">
           <p>
-            Sam is a Lash Artist in Gilbert, AZ with a background in
+            Sam is a Lash Artist in Chandler, AZ with a background in
             Cosmetology. If you're looking for a lash artist with precision and
             a passion for her craft, she's your girl.
           </p>

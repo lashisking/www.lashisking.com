@@ -7,8 +7,7 @@ const PoliciesPage = (props) => {
         <div id="policies" className="policies">
             <div className="inner">
                 <h3>Policies</h3>
-                <p>Please remove any makeup prior to your appointment</p>
-                <p>Avoid stimulants like caffine</p>
+                <p>Please remove any makeup and avoid caffeine prior to your appointment</p>
                 <p>No children</p>
                 <p>
                 You must complete client consent forms provided before we start lash

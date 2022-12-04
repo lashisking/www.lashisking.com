@@ -45,7 +45,7 @@ const ReviewsPage = (props) => {
                 so happy that I found her when she first opened. I was looking for someone to do my 
                 lashes for my wedding and she exceeded my expectations!! Over a year and a half later and 
                 she's still stuck with me as a client lol Book your appointment ladies!! You'll love it!!"
-                <span className="right-align">&mdash;Sarah</span>
+                <span className="right-align">&mdash;Kim</span>
 
               </p>
               <BookNow />

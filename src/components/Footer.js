@@ -20,8 +20,8 @@ export default (props) => (
             </div>
 
             <div className="footer-contact">
-            <a className="map-link footer-map-link" href="https://maps.google.com/?q=1810 E Ray Rd. Suite A-109,Chandler,AZ,85225" target="_blank">
-                1810 E Ray Rd. Suite A-109<br/>
+            <a className="map-link footer-map-link" href="https://maps.google.com/?q=1810 E Ray Rd.,Chandler,AZ,85225" target="_blank">
+                1810 E Ray Rd.<br/>
                 Chandler, AZ 85225
             </a>
             </div>
