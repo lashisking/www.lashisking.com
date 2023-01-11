@@ -37,13 +37,13 @@ const PageLayout = (props) => {
   return (
     <>   
       <Header current={props.page}/>
-        <main id="top">
+        <main id="top" className="parallax-container">
             <Hero page={props.page} text={props.text || []}/>
             {props.children}
             <Contact />
             <Policies />
+            <Footer />
         </main>
-      <Footer />
     </>
   );
 };

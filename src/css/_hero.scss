@@ -9,6 +9,13 @@
   color: $secondary-text-color;
   background: #101010;
   padding: 20px 0;
+
+}
+
+.parallax {
+  transform: translateZ(-1px) translateY(-110px) scale(2);
+  position: relative;
+  z-index: -1;
 }
   
 .hero-content {

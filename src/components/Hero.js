@@ -1,6 +1,6 @@
 import React from 'react';
 export default (props) => (
-    <div  className="hero">
+    <div  className="hero parallax">
         <div className="inner center hero-content v-inner">
 
         <div className="title-wrapper">

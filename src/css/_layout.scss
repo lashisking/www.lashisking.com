@@ -128,7 +128,7 @@ input::placeholder {
 }
 
 .about {
-
+  background-color: white;
 }
   .two-box {
     @include on_tablet {
@@ -229,6 +229,8 @@ input::placeholder {
 
 .services,
 .policies {
+  background-color: white;
+  
   h3 {
     font-size: 2.5em;
     font-weight: 300;
@@ -493,6 +495,7 @@ input::placeholder {
 
 
 .what-to-expect {
+  background-color: white;
   h3 {
     font-size: 2.5em;
     font-weight: 300;
